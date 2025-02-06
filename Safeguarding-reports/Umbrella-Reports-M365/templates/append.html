@@ -1,0 +1,12 @@
+{% for item in blocked_domain %}
+<tr>
+    <td>{{item.blocked_domain}}</td>
+    <td>{{item.reason}}</td>
+    <td>{{item.internal_ip}}</td>
+    <td>{{item.hostname}}</td>
+    <td>{{item.description}}</td>
+    <td>{{item.user}}</td>
+    <td>{{item.date}}</td>
+    <td>{{item.time}}</td>
+</tr>
+{% endfor %}
