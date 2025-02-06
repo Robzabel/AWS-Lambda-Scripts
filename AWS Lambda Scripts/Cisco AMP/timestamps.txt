@@ -1,0 +1,1 @@
+{"Threat Detection" : 1, "Threat Detected" : 1, "Threat Quarantined" : 1, "Quarantine Failure": 1}
